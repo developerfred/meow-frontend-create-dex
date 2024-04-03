@@ -94,9 +94,31 @@
   line-height: 1.5;
 }
 
+
+.nav {
+  display: flex;
+  flex: 1;
+  padding: 2rem 2rem 0 0;
+  justify-content: center;
+  align-items: center;
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;
     flex-direction: column;
   }
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    border-radius: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background-color: rgba(17, 25, 40, 0.5); /* Adjust your black opacity here */
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
 }
